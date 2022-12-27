@@ -20,7 +20,4 @@ export const authApi = {
   me: () => {
     return axiosInstance.get<MeResponse>("/users/me/");
   },
-  requestTestNotification: () => {
-    return axiosInstance.post("/users/test-notification/");
-  },
 };
